@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter</title>
+    <link href="style.css" type="text/css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="counter_container">
+        <h2>Counter</h2>
+        <div class="counter_result">0</div>
+        <div class="buttons_icons">
+          <button onclick="decreaseCounter()" class="button_minus">
+            <i class="icon fa-solid fa-minus"></i>
+          </button>
+          <input onclick="resetCounter()" class="button_reset" type="reset" />
+          <button onclick="increaseCounter()" class="button_plus">
+            <i class="icon fa-solid fa-plus"></i>
+          </button>
+        </div>
+      </div>
+    </main>
+    <script
+      src="https://kit.fontawesome.com/ac3d23dd5a.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js" type="text/javascript"></script>
+  </body>
+</html>
